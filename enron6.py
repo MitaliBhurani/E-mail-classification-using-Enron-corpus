@@ -4,6 +4,7 @@ from nltk.stem import PorterStemmer, WordNetLemmatizer
 from nltk.tokenize import word_tokenize
 # import string
 
+# For whole dataset's email body write this: with open("email_body.txt","r") as f
 with open("ken_lay_emails.txt", "r") as f:
     data = f.read()
 
