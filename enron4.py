@@ -6,7 +6,7 @@ from collections import Counter
 from email.parser import Parser
 
 
-# rootdir = "F:\\enron_mail_20150507\\maildir"
+# for whole dataset write this: rootdir = "F:\\enron_mail_20150507\\maildir"
 rootdir = "F:\\enron_mail_20150507\\maildir\\kean-s"
 
 def email_analyse(inputfile, to_email_list, from_email_list, email_body):
