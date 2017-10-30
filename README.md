@@ -6,7 +6,7 @@ The project is based on classifying e-mails of the Enron corpus into two catagor
 2. Normal e-mails
 
 About the dataset: 
-The Enron e-mail dataset contains over 600,000 e-mails from 158 users.
+The Enron e-mail dataset contains over 600,000 e-mails from 158 users. Find the dataset here https://www.cs.cmu.edu/~enron/
 
 Why this dataset:
 Enron Corporation was a famous American energy, commodities, services company. Enron scandal, a well-planned accounting fraud, led to the company’s bankruptcy. FERC publicly released e-mails from Enron to investigate its involvement in the scandal.
