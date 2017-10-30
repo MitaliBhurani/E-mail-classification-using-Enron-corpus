@@ -18,7 +18,7 @@ Objective:
    a) Removal of stop words
    b) Lemmatization
    c) Removal of punctuation marks and special characters
-   d) Converting all the words in lowercase
+   d) Converting all the words to lowercase
    
 2. Creating word dictionary:
    This involves creating a dictionary of words and their frequency. I have chosen 100 most frequently used words in the 
