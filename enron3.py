@@ -4,6 +4,7 @@
 import os
 from email.parser import Parser
 
+# for whole dataset write this: rootdir = "F:\\enron_mail_20150507\\maildir"
 rootdir = "F:\\enron_mail_20150507\\maildir\\lay-k"
 
 
