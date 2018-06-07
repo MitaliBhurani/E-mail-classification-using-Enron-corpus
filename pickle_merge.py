@@ -1,3 +1,5 @@
+# Using enron6.py generate pickle files of 11 Enron employees who were most responsible for the fraud and merge then into one pickle file.
+
 import pickle
 from collections import Counter
 import nltk
