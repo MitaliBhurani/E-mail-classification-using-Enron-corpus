@@ -30,5 +30,13 @@ for word in useful_words:
         useful_words2.append(lemmatizer.lemmatize(lower))
 
 frequency = nltk.FreqDist(useful_words2)
+mscwords = frequency.most_common(1000)
+nwords = len(mscwords)
 
-print(frequency.most_common(100))
+# Dumping the most common 1000 words along with their frequency into pickle file
+with open('ken.pickle', 'ab') as f1:
+    a = [pickle.dump(mscw, f1) for mscw in mscwords]
+
+with open('ken.pickle', 'rb') as f2:
+    b = [pickle.load(f2) in range(nwords)]
+    print(b)
