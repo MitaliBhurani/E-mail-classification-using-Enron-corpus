@@ -1,4 +1,4 @@
-# Cleaning the data by converting it into lowercase, stemmed, lemmatized data and finding 100 most common words.
+# Cleaning the data by converting it into lowercase, stemmed, lemmatized data and finding 1000 most common words.
 
 import nltk
 from nltk.corpus import stopwords
