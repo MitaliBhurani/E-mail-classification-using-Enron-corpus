@@ -1,3 +1,5 @@
+# Using word cloud to display most common 1000 words
+
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 import pickle
