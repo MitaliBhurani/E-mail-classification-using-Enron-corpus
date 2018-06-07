@@ -1,3 +1,5 @@
+# Cleaning the data by converting it into lowercase, stemmed, lemmatized data and finding 100 most common words.
+
 import nltk
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer, WordNetLemmatizer
